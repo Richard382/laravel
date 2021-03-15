@@ -1,0 +1,939 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Radiant Admin Premium Bootstrap Admin Dashboard Template</title>
+  <!-- plugins:css -->
+  <link rel="stylesheet" href="../../vendors/mdi/css/materialdesignicons.min.css">
+  <link rel="stylesheet" href="../../vendors/puse-icons-feather/feather.css">
+  <link rel="stylesheet" href="../../vendors/css/vendor.bundle.base.css">
+  <!-- endinject -->
+  <!-- plugin css for this page -->
+  <link rel="stylesheet" href="../../vendors/morris.js/morris.css">
+  <!-- End plugin css for this page -->
+  <!-- inject:css -->
+  <link rel="stylesheet" href="../../css/style.css">
+  <!-- endinject -->
+  <link rel="shortcut icon" href="../../images/favicon.png" />
+</head>
+
+<body class="horizontal-menu">
+  <div class="container-scroller">
+    <!-- Horizontal Menu Start -->
+    <nav class="navbar horizontal-layout col-lg-12 col-12 p-0">
+      <div class="container d-flex flex-row">
+        <div class="text-center navbar-brand-wrapper d-flex align-items-top">
+          <a class="navbar-brand brand-logo" href="../../index.html"><img src="../../images/logo-inverse.svg" alt="logo"/></a>
+          <a class="navbar-brand brand-logo-mini" href="../../index.html"><img src="../../images/logo-mini.svg" alt="logo"/></a>
+        </div>
+        <div class="navbar-menu-wrapper d-flex align-items-center">
+          <form action="#">
+            <div class="form-group mb-0">
+              <div class="input-group search-field">
+                <div class="input-group-prepend">
+                  <span class="input-group-text"><i class="mdi mdi-magnify"></i></span>
+                </div>
+                <input type="text" class="form-control">
+              </div>
+            </div>
+          </form>
+          <button type="button" class="navbar-toggler"><i class="mdi mdi-menu"></i></button>
+          <ul class="navbar-nav header-links ml-auto">
+            <li class="nav-item">
+              <a href="#" class="nav-link">Schedule <span class="badge badge-success ml-1">New</span></a>
+            </li>
+            <li class="nav-item active">
+              <a href="#" class="nav-link"><i class="mdi mdi-elevation-rise"></i>Reports</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link"><i class="mdi mdi-bookmark-plus-outline"></i>Score</a>
+            </li>
+          </ul>
+        </div>
+        <div class="nav-bottom">
+          <ul class="nav ml-auto dropdown-menus">
+            <li class="nav-item dropdown">
+              <a class="nav-link count-indicator dropdown-toggle" id="messageDropdown" href="#" data-toggle="dropdown" aria-expanded="false">
+                <i class="mdi mdi-message-text-outline"></i>
+                <span class="count bg-warning">2</span>
+              </a>
+              <div class="dropdown-menu dropdown-menu-left navbar-dropdown preview-list" aria-labelledby="messageDropdown">
+                <div class="dropdown-item py-3">
+                  <p class="mb-0 font-weight-medium float-left">You have 7 unread mails
+                  </p>
+                  <span class="badge badge-inverse-info badge-pill float-right">View all</span>
+                </div>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item preview-item">
+                  <div class="preview-thumbnail">
+                    <img src="../../images/faces/face4.jpg" alt="image" class="profile-pic">
+                  </div>
+                  <div class="preview-item-content flex-grow">
+                    <h6 class="preview-subject ellipsis font-weight-normal text-dark mb-1">David Grey
+                      <span class="float-right font-weight-light small-text text-gray">1 Minutes ago</span>
+                    </h6>
+                    <p class="font-weight-light small-text mb-0">
+                      The meeting is cancelled
+                    </p>
+                  </div>
+                </a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item preview-item">
+                  <div class="preview-thumbnail">
+                    <img src="../../images/faces/face2.jpg" alt="image" class="profile-pic">
+                  </div>
+                  <div class="preview-item-content flex-grow">
+                    <h6 class="preview-subject ellipsis font-weight-normal text-dark mb-1">Tim Cook
+                      <span class="float-right font-weight-light small-text text-gray">15 Minutes ago</span>
+                    </h6>
+                    <p class="font-weight-light small-text mb-0">
+                      New product launch
+                    </p>
+                  </div>
+                </a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item preview-item">
+                  <div class="preview-thumbnail">
+                    <img src="../../images/faces/face3.jpg" alt="image" class="profile-pic">
+                  </div>
+                  <div class="preview-item-content flex-grow">
+                    <h6 class="preview-subject ellipsis font-weight-normal text-dark mb-1"> Johnson
+                      <span class="float-right font-weight-light small-text text-gray">18 Minutes ago</span>
+                    </h6>
+                    <p class="font-weight-light small-text mb-0">
+                      Upcoming board meeting
+                    </p>
+                  </div>
+                </a>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link count-indicator dropdown-toggle" id="notificationDropdown" href="#" data-toggle="dropdown">
+                <i class="mdi mdi-bell-outline"></i>
+                <span class="count bg-success">4</span>
+              </a>
+              <div class="dropdown-menu dropdown-menu-right navbar-dropdown preview-list" aria-labelledby="notificationDropdown">
+                <a class="dropdown-item py-3">
+                  <p class="mb-0 font-weight-medium float-left">You have 4 new notifications
+                  </p>
+                  <span class="badge badge-pill badge-inverse-info float-right">View all</span>
+                </a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item preview-item">
+                  <div class="preview-thumbnail">
+                    <div class="preview-icon bg-inverse-success">
+                      <i class="mdi mdi-alert-circle-outline mx-0"></i>
+                    </div>
+                  </div>
+                  <div class="preview-item-content">
+                    <h6 class="preview-subject font-weight-normal text-dark mb-1">Application Error</h6>
+                    <p class="font-weight-light small-text mb-0">
+                      Just now
+                    </p>
+                  </div>
+                </a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item preview-item">
+                  <div class="preview-thumbnail">
+                    <div class="preview-icon bg-inverse-warning">
+                      <i class="mdi mdi-comment-text-outline mx-0"></i>
+                    </div>
+                  </div>
+                  <div class="preview-item-content">
+                    <h6 class="preview-subject font-weight-normal text-dark mb-1">Settings</h6>
+                    <p class="font-weight-light small-text mb-0">
+                      Private message
+                    </p>
+                  </div>
+                </a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item preview-item">
+                  <div class="preview-thumbnail">
+                    <div class="preview-icon bg-inverse-info">
+                      <i class="mdi mdi-email-outline mx-0"></i>
+                    </div>
+                  </div>
+                  <div class="preview-item-content">
+                    <h6 class="preview-subject font-weight-normal text-dark mb-1">New user registration</h6>
+                    <p class="font-weight-light small-text mb-0">
+                      2 days ago
+                    </p>
+                  </div>
+                </a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link py-0 pr-0">
+                <span class="text-black d-none d-lg-inline-block mr-2">Hello, Sebastian !</span>
+                <img class="img-xs rounded-circle" src="https://placehold.it/100x100" alt="profile image">
+              </a>
+            </li>
+          </ul>
+          <ul class="navbar-nav header-links ml-auto">
+            <li class="nav-item">
+              <a href="#" class="nav-link">Schedule <span class="badge badge-success ml-1">New</span></a>
+            </li>
+            <li class="nav-item active">
+              <a href="#" class="nav-link"><i class="mdi mdi-elevation-rise"></i>Reports</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link"><i class="mdi mdi-bookmark-plus-outline"></i>Score</a>
+            </li>
+          </ul>
+          <ul class="nav page-navigation">
+            <li class="nav-item dropdown active">
+              <a class="nav-link count-indicator dropdown-toggle" id="dashboard-dropdown" href="#" data-toggle="dropdown">
+                Dashboard
+              </a>
+              <div class="dropdown-menu dropdown-left navbar-dropdown" aria-labelledby="dashboard-dropdown">
+                <ul>
+                  <li class="dropdown-item"><a href="#" class="dropdown-link">Menu Link 1</a></li>
+                  <li class="dropdown-item"><a href="#" class="dropdown-link">Menu Link 2</a></li>
+                  <li class="dropdown-item"><a href="#" class="dropdown-link">Menu Link 3</a></li>
+                  <li class="dropdown-item"><a href="#" class="dropdown-link">Menu Link 4</a></li>
+                </ul>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link count-indicator dropdown-toggle" id="finance-dropdown" href="#" data-toggle="dropdown">
+                Finance
+              </a>
+              <div class="dropdown-menu dropdown-left navbar-dropdown" aria-labelledby="finance-dropdown">
+                <ul>
+                  <li class="dropdown-item"><a href="#" class="dropdown-link">Menu Link 1</a></li>
+                  <li class="dropdown-item"><a href="#" class="dropdown-link">Menu Link 2</a></li>
+                  <li class="dropdown-item"><a href="#" class="dropdown-link">Menu Link 3</a></li>
+                </ul>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link count-indicator dropdown-toggle" id="project-dropdown" href="#" data-toggle="dropdown">
+                Project
+              </a>
+              <div class="dropdown-menu dropdown-left navbar-dropdown" aria-labelledby="project-dropdown">
+                <ul>
+                  <li class="dropdown-item"><a href="#" class="dropdown-link">Menu Link 1</a></li>
+                  <li class="dropdown-item"><a href="#" class="dropdown-link">Menu Link 2</a></li>
+                  <li class="dropdown-item"><a href="#" class="dropdown-link">Menu Link 3</a></li>
+                </ul>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link count-indicator dropdown-toggle" id="hr-dropdown" href="#" data-toggle="dropdown">
+                HR
+              </a>
+              <div class="dropdown-menu dropdown-left navbar-dropdown" aria-labelledby="hr-dropdown">
+                <ul>
+                  <li class="dropdown-item"><a href="#" class="dropdown-link">Menu Link 1</a></li>
+                  <li class="dropdown-item"><a href="#" class="dropdown-link">Menu Link 2</a></li>
+                  <li class="dropdown-item"><a href="#" class="dropdown-link">Menu Link 3</a></li>
+                  <li class="dropdown-item"><a href="#" class="dropdown-link">Menu Link 4</a></li>
+                  <li class="dropdown-item"><a href="#" class="dropdown-link">Menu Link 5</a></li>
+                  <li class="dropdown-item"><a href="#" class="dropdown-link">Menu Link 6</a></li>
+                </ul>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link count-indicator dropdown-toggle" id="revenue-dropdown" href="#" data-toggle="dropdown">
+                Revenue
+              </a>
+              <div class="dropdown-menu dropdown-left navbar-dropdown" aria-labelledby="revenue-dropdown">
+                <ul>
+                  <li class="dropdown-item"><a href="#" class="dropdown-link">Menu Link 1</a></li>
+                  <li class="dropdown-item"><a href="#" class="dropdown-link">Menu Link 2</a></li>
+                  <li class="dropdown-item"><a href="#" class="dropdown-link">Menu Link 3</a></li>
+                  <li class="dropdown-item"><a href="#" class="dropdown-link">Menu Link 4</a></li>
+                  <li class="dropdown-item"><a href="#" class="dropdown-link">Menu Link 5</a></li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Horizontal Menu Ends -->
+    <div class="container-fluid page-body-wrapper">
+      <div class="main-panel">
+        <div class="content-wrapper">
+          <div class="container">
+            <div class="row">
+              <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 grid-margin stretch-card">
+                <div class="card card-statistics">
+                  <div class="card-body">
+                    <div class="d-flex align-items-center justify-content-center">
+                      <div class="highlight-icon bg-light mr-3">
+                        <i class="mdi mdi-cube text-success icon-lg"></i>
+                      </div>
+                      <div class="wrapper">
+                        <p class="card-text mb-0">Revenue</p>
+                        <div class="fluid-container">
+                          <h3 class="card-title mb-0">$65,650</h3>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 grid-margin stretch-card">
+                <div class="card card-statistics">
+                  <div class="card-body">
+                    <div class="d-flex align-items-center justify-content-center">
+                      <div class="highlight-icon bg-light mr-3">
+                        <i class="mdi mdi-briefcase-check text-primary icon-lg"></i>
+                      </div>
+                      <div class="wrapper">
+                        <p class="card-text mb-0">Orders</p>
+                        <div class="fluid-container">
+                          <h3 class="card-title mb-0">$45,650</h3>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 grid-margin stretch-card">
+                <div class="card card-statistics">
+                  <div class="card-body">
+                    <div class="d-flex align-items-center justify-content-center">
+                      <div class="highlight-icon bg-light mr-3">
+                        <i class="mdi mdi-account-multiple text-danger icon-lg"></i>
+                      </div>
+                      <div class="wrapper">
+                        <p class="card-text mb-0">Returns</p>
+                        <div class="fluid-container">
+                          <h3 class="card-title mb-0">$12,357</h3>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 grid-margin stretch-card">
+                <div class="card card-statistics">
+                  <div class="card-body">
+                    <div class="d-flex align-items-center justify-content-center">
+                      <div class="highlight-icon bg-light mr-3">
+                        <i class="mdi mdi-airballoon text-info icon-lg"></i>
+                      </div>
+                      <div class="wrapper">
+                        <p class="card-text mb-0">Sales</p>
+                        <div class="fluid-container">
+                          <h3 class="card-title mb-0">$45,650</h3>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-4 col-sm-6 grid-margin stretch-card">
+                <div class="card">
+                  <div class="card-body">
+                    <h5 class="card-title">Latest Comments</h5>
+                    <div class="d-flex align-items-start pb-3 pt-1 mb-4 border-bottom">
+                      <img src="https://placehold.it/50x50" alt="brand logo">
+                      <div class="wrapper w-100 pl-3">
+                        <div class="d-flex align-items-center justify-content-between">
+                          <span class="badge badge-danger badge-lg mb-2">ADMIN-APPLE</span>
+                          <span class="text-gray text-small">13:17 PM</span>
+                        </div>
+                        <p>A new rating has been received</p>
+                      </div>
+                    </div>
+                    <div class="d-flex align-items-start pb-3 pt-1 mb-4 border-bottom">
+                      <img src="https://placehold.it/50x50" alt="brand logo">
+                      <div class="wrapper w-100 pl-3">
+                        <div class="d-flex align-items-center justify-content-between">
+                          <span class="badge badge-warning badge-lg mb-2">ADMIN-AIRBNB</span>
+                          <span class="text-gray text-small">09:29 PM</span>
+                        </div>
+                        <p>Verify your email address !</p>
+                      </div>
+                    </div>
+                    <div class="d-flex align-items-start pb-3 pt-1 mb-4 border-bottom">
+                      <img src="https://placehold.it/50x50" alt="brand logo">
+                      <div class="wrapper w-100 pl-3">
+                        <div class="d-flex align-items-center justify-content-between">
+                          <span class="badge badge-success badge-lg mb-2">ADMIN-AMAZON</span>
+                          <span class="text-gray text-small">03:43 AM</span>
+                        </div>
+                        <p>Support of theme</p>
+                      </div>
+                    </div>
+                    <div class="d-flex align-items-start pt-1">
+                      <img src="https://placehold.it/50x50" alt="brand logo">
+                      <div class="wrapper w-100 pl-3">
+                        <div class="d-flex align-items-center justify-content-between">
+                          <span class="badge badge-info badge-lg mb-2">ADMIN-FACEBOOK</span>
+                          <span class="text-gray text-small">10:14 AM</span>
+                        </div>
+                        <p>New submission on website</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 col-sm-6 grid-margin stretch-card">
+                <div class="card">
+                  <div class="card-body">
+                    <h5 class="card-title">Top Selling Products</h5>
+                    <div class="row border-bottom pb-3 mb-3">
+                      <div class="col-12 py-4 my-3">
+                        <canvas id="DashboardBarChart-1" style="height:100px"></canvas>
+                      </div>
+                      <div class="col-12 mt-3">
+                        <div class="d-flex align-items-end">
+                          <h1 class="display-4 font-weight-semibold mb-0">8935</h1>
+                          <h5 class="ml-3 mb-2">Sales Per Day</h5>
+                        </div>
+                        <p class="mt-0 mb-2">Some quick example text to build</p>
+                        <div class="d-flex align-items-center">
+                          <div class="progress progress-md w-100 mr-3">
+                            <div class="progress-bar bg-success" role="progressbar" style="width: 38%" aria-valuenow="38" aria-valuemin="0" aria-valuemax="100"></div>
+                          </div>
+                          <p class="mb-0">38%</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-md-12">
+                        <div class="d-flex align-items-end">
+                          <h1 class="display-4 font-weight-semibold mb-0">6843</h1>
+                          <h5 class="ml-3 mb-2">Orders Per Day</h5>
+                        </div>
+                        <p class="mt-0 mb-2">Proin eget tortor risus.</p>
+                        <div class="d-flex align-items-center">
+                          <div class="progress progress-md w-100 mr-3">
+                            <div class="progress-bar bg-primary" role="progressbar" style="width: 64%" aria-valuenow="64" aria-valuemin="0" aria-valuemax="100"></div>
+                          </div>
+                          <p class="mb-0">64%</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 grid-margin stretch-card">
+                <div class="card">
+                  <div class="card-body">
+                    <h5 class="card-title">Total Revenue</h5>
+                    <div class="w-75 mx-auto">
+                      <div class="d-flex justify-content-between text-center mb-2">
+                        <div class="wrapper">
+                          <h4>6,256</h4>
+                          <small class="text-muted">Totel sales</small>
+                        </div>
+                        <div class="wrapper">
+                          <h4>8569</h4>
+                          <small class="text-muted">Open Compaign</small>
+                        </div>
+                      </div>
+                    </div>
+                    <div id="morris-line-example" style="height:250px;"></div>
+                    <div class="w-75 mx-auto">
+                      <div class="d-flex justify-content-between text-center mt-5">
+                        <div class="wrapper">
+                          <h4>5136</h4>
+                          <small class="text-muted">Online Sales</small>
+                        </div>
+                        <div class="wrapper">
+                          <h4>4596</h4>
+                          <small class="text-muted">Store Sales</small>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-12 grid-margin">
+                <div class="card">
+                  <div class="card-body">
+                    <h5 class="card-title mb-4">Order Status</h5>
+                    <div class="row mb-5">
+                      <div class="col-md-3 col-sm-6 col-6">
+                        <div class="d-flex">
+                          <h2 class="mb-0">5675</h2>
+                          <i class="mdi mdi-arrow-up h2 mb-0 text-success"></i>
+                        </div>
+                        <p>Daily Order</p>
+                      </div>
+                      <div class="col-md-3 col-sm-6 col-6">
+                        <div class="d-flex">
+                          <h2 class="mb-0">7841</h2>
+                          <i class="mdi mdi-arrow-up h2 mb-0 text-success"></i>
+                        </div>
+                        <p>Tasks Completed</p>
+                      </div>
+                      <div class="col-md-3 col-sm-6 col-6">
+                        <div class="d-flex">
+                          <h2 class="mb-0">6521</h2>
+                          <i class="mdi mdi-arrow-down h2 mb-0 text-danger"></i>
+                        </div>
+                        <p>Monthly Sales</p>
+                      </div>
+                      <div class="col-md-3 col-sm-6 col-6">
+                        <div class="d-flex">
+                          <h2 class="mb-0">8954</h2>
+                          <i class="mdi mdi-arrow-up h2 mb-0 text-success"></i>
+                        </div>
+                        <p>Total Revenue</p>
+                      </div>
+                    </div>
+                    <canvas id="dashoard-area-chart" height="70"></canvas>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-5 grid-margin stretch-card">
+                <div class="card">
+                  <div class="card-body">
+                    <div class="d-flex align-items-center justify-content-between mb-4">
+                      <h5 class="card-title mb-0">New Accounts</h5>
+                      <small class="text-gray d-none d-sm-block">Last activity was 2 days ago</small>
+                    </div>
+                    <div class="new-accounts">
+                      <ul class="chats">
+                        <li class="chat-persons">
+                          <a href="#">
+                            <span class="pro-pic"><img src="https://placehold.it/100x100" alt="profile image"></span>
+                            <div class="user">
+                              <p class="u-name">David</p>
+                              <p class="u-designation">Python Developer</p>
+                            </div>
+                            <p class="joined-date">30 Mins ago</p>
+                          </a>
+                        </li>
+                        <!-- list person -->
+                        <li class="chat-persons">
+                          <a href="#">
+                            <span class="pro-pic"><img src="https://placehold.it/100x100" alt="profile image"></span>
+                            <div class="user">
+                              <p class="u-name">Stella Johnson</p>
+                              <p class="u-designation">SEO Expert</p>
+                            </div>
+                            <p class="joined-date">2 Days ago</p>
+                          </a>
+                        </li>
+                        <!-- list person -->
+                        <li class="chat-persons">
+                          <a href="#">
+                            <span class="pro-pic"><img src="https://placehold.it/100x100" alt="profile image"></span>
+                            <div class="user">
+                              <p class="u-name">Marina Michel</p>
+                              <p class="u-designation">Business Development</p>
+                            </div>
+                            <p class="joined-date">4 Days ago</p>
+                          </a>
+                        </li>
+                        <!-- list person -->
+                        <li class="chat-persons">
+                          <a href="#">
+                            <span class="pro-pic"><img src="https://placehold.it/100x100" alt="profile image"></span>
+                            <div class="user">
+                              <p class="u-name">Edward Fletcher</p>
+                              <p class="u-designation">UI/UX Designer</p>
+                            </div>
+                            <p class="joined-date">5 Days ago</p>
+                          </a>
+                        </li>
+                        <!-- list person -->
+                        <li class="chat-persons">
+                          <a href="#">
+                            <span class="pro-pic"><img src="https://placehold.it/100x100" alt="profile image"></span>
+                            <div class="user">
+                              <p class="u-name">Allen Donald</p>
+                              <p class="u-designation">UI/UX Designer</p>
+                            </div>
+                            <p class="joined-date">5 Days ago</p>
+                          </a>
+                        </li>
+                        <!-- list person -->
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-7 grid-margin stretch-card">
+                <div class="card">
+                  <div class="card-body">
+                    <div class="d-flex justify-content-between align-items-center mb-4">
+                      <h5 class="card-title mb-0">To-do list</h5>
+                      <button type="button" class="btn btn-sm btn-success ml-auto"><i class="mdi mdi-plus"></i>Create New</button>
+                    </div>
+                    <div class="todo-list-container">
+                      <div class="list-wrapper">
+                        <ul class="todo-list">
+                          <li class="list">
+                            <div class="form-check form-check-flat todo-form-check w-100">
+                              <div class="form-check-label">
+                                <input type="checkbox" class="form-check-input">
+                                <i class="input-helper"></i>
+                                <div class="d-flex">
+                                  <div class="wrapper todo-content">
+                                    <h6 class="mb-1 ellipsis">Anyways i would like just do it</h6>
+                                    <p class="text-gray mb-0 ellipsor">15:00 PM Mon, 14 Jan 2018</p>
+                                    <span class="text-success ellipsor">#Photoshop</span>
+                                  </div>
+                                  <div class="action-wrapper wrapper ml-auto d-flex align-items-center">
+                                    <i class="btn-close mdi mdi-close-circle-outline text-danger icon-md"></i>
+                                    <i class="btn-action mdi mdi-dots-vertical text-muted icon-md"></i>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </li>
+                          <li class="list">
+                            <div class="form-check form-check-flat todo-form-check w-100">
+                              <div class="form-check-label">
+                                <input type="checkbox" class="form-check-input" checked>
+                                <i class="input-helper"></i>
+                                <div class="d-flex">
+                                  <div class="wrapper todo-content">
+                                    <h6 class="mb-1 ellipsis">Make an appointment with Doctor</h6>
+                                    <p class="text-gray mb-0 ellipsor">10:00 PM Sat, 10 Jan 2018</p>
+                                    <span class="text-success ellipsor">#Bootstrap</span>
+                                  </div>
+                                  <div class="action-wrapper wrapper ml-auto d-flex align-items-center">
+                                    <i class="btn-close mdi mdi-close-circle-outline text-danger icon-md"></i>
+                                    <i class="btn-action mdi mdi-dots-vertical text-muted icon-md"></i>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </li>
+                          <li class="list">
+                            <div class="form-check form-check-flat todo-form-check w-100">
+                              <div class="form-check-label">
+                                <input type="checkbox" class="form-check-input">
+                                <i class="input-helper"></i>
+                                <div class="d-flex">
+                                  <div class="wrapper todo-content">
+                                    <h6 class="mb-1 ellipsis">Visit our boys in Battle Exhibition</h6>
+                                    <p class="text-gray mb-0 ellipsor">06:46 PM Mon, 02 Jan 2018</p>
+                                    <span class="text-success ellipsor">#Bootstrap&nbsp;&nbsp;#CSS</span>
+                                  </div>
+                                  <div class="action-wrapper wrapper ml-auto d-flex align-items-center">
+                                    <i class="btn-close mdi mdi-close-circle-outline text-danger icon-md"></i>
+                                    <i class="btn-action mdi mdi-dots-vertical text-muted icon-md"></i>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </li>
+                          <li class="list">
+                            <div class="form-check form-check-flat todo-form-check w-100">
+                              <div class="form-check-label">
+                                <input type="checkbox" class="form-check-input">
+                                <i class="input-helper"></i>
+                                <div class="d-flex">
+                                  <div class="wrapper todo-content">
+                                    <h6 class="mb-1 ellipsis">Please Checkout The Attachment</h6>
+                                    <p class="text-gray mb-0 ellipsor">03:00 PM Sat, 13 Jan 2018</p>
+                                    <span class="text-danger ellipsor">#HTML</span>
+                                  </div>
+                                  <div class="action-wrapper wrapper ml-auto d-flex align-items-center">
+                                    <i class="btn-close mdi mdi-close-circle-outline text-danger icon-md"></i>
+                                    <i class="btn-action mdi mdi-dots-vertical text-muted icon-md"></i>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-12 grid-margin">
+                <div class="card">
+                  <div class="card-body">
+                    <h5 class="card-title">Payment Method</h5>
+                    <div class="table-responsive">
+                      <table class="table center-aligned-table">
+                        <thead>
+                          <tr>
+                            <th class="border-bottom-0">ID</th>
+                            <th class="border-bottom-0">Assignee</th>
+                            <th class="border-bottom-0">Task Details</th>
+                            <th class="border-bottom-0">Payment Method</th>
+                            <th class="border-bottom-0">Payment Status</th>
+                            <th class="border-bottom-0">Amount</th>
+                            <th class="border-bottom-0">Tracking Number</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td>#320</td>
+                            <td>Mark C.Diaz</td>
+                            <td>Support of thteme</td>
+                            <td>Credit card</td>
+                            <td><label class="badge badge-success">Approved</label></td>
+                            <td>$12,245</td>
+                            <td>JPBBN435893458</td>
+                          </tr>
+                          <tr>
+                            <td>#321</td>
+                            <td>Jose D</td>
+                            <td>Verify your email address !</td>
+                            <td>Internet banking</td>
+                            <td><label class="badge badge-warning">Pending</label></td>
+                            <td>$12,245</td>
+                            <td>BDYBN435893325</td>
+                          </tr>
+                          <tr>
+                            <td>#322</td>
+                            <td>Philips T</td>
+                            <td>Item support message send</td>
+                            <td>Credit card</td>
+                            <td><label class="badge badge-success">Approved</label></td>
+                            <td>$12,245</td>
+                            <td>JSNTN435884258</td>
+                          </tr>
+                          <tr>
+                            <td>#323</td>
+                            <td>Luke Pixel</td>
+                            <td>New submission on website</td>
+                            <td>Cash on delivery</td>
+                            <td><label class="badge badge-danger">Rejected</label></td>
+                            <td>$12,245</td>
+                            <td>JPABT435893678</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                    <div class="d-flex align-items-center mt-4">
+                      <p class="mb-0 d-none d-md-block text-dark">Showing 1 to 20 of 20 entries</p>
+                      <ul class="pagination mb-0 ml-auto">
+                        <li class="page-item"><a class="page-link" href="#"><i class="mdi mdi-chevron-left"></i></a></li>
+                        <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                        <li class="page-item"><a class="page-link" href="#">2</a></li>
+                        <li class="page-item"><a class="page-link" href="#">3</a></li>
+                        <li class="page-item"><a class="page-link" href="#">4</a></li>
+                        <li class="page-item"><a class="page-link" href="#"><i class="mdi mdi-chevron-right"></i></a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-6 grid-margin stretch-card">
+                <div class="card">
+                  <div class="card-body">
+                    <h5 class="card-title">The Current Chart</h5>
+                    <canvas id="current-chart" height="100"></canvas>
+                  </div>
+                  <div class="border-top py-4 px-4">
+                    <p class="mb-0 text-gray">Projects Status</p>
+                    <div class="d-flex align-items-end">
+                      <h2 class="mb-0 display-2 font-weight-semibold text-success">76,533</h2>
+                      <p class="mb-2 ml-1 text-success">PCS</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 grid-margin stretch-card">
+                <div class="card">
+                  <div class="card-body">
+                    <h5 class="card-title">Updates</h5>
+                    <ul class="bullet-line-list">
+                      <li>
+                        <h6>User confirmation</h6>
+                        <p class="mb-0">Donec rutrum congue leo eget malesuada.</p>
+                        <p class="text-muted">
+                          <i class="mdi mdi-clock"></i>
+                          7 months ago.
+                        </p>
+                      </li>
+                      <li>
+                        <h6>Continuous evaluation</h6>
+                        <p class="mb-0">Vivamus suscipit tortor eget felis porttitor volutpat.</p>
+                        <p class="text-muted">
+                          <i class="mdi mdi-clock"></i>
+                          7 months ago.
+                        </p>
+                      </li>
+                      <li>
+                        <h6>Promotion</h6>
+                        <p class="mb-0">Curabitur non nulla sit amet nisl tempus convallis quis ac lectus.</p>
+                        <p class="text-muted">
+                          <i class="mdi mdi-clock"></i>
+                          7 months ago.
+                        </p>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-12 grid-margin">
+                <div class="card">
+                  <div class="card-body">
+                    <h5 class="card-title mb-4">Manage Tickets</h5>
+                    <div class="fluid-container">
+                      <div class="row ticket-card mt-3 pb-2 border-bottom pb-3 mb-3">
+                        <div class="col-md-1">
+                          <img class="img-sm rounded-circle mb-4 mb-md-0" src="https://placehold.it/100x100" alt="profile image">
+                        </div>
+                        <div class="ticket-details col-md-9">
+                          <div class="d-flex">
+                            <p class="text-dark font-weight-bold mr-2 mb-0 no-wrap">James :</p>
+                            <p class="font-weight-medium mr-1 mb-0">[#23047]</p>
+                            <p class="font-weight-semibold mb-0 ellipsis">Donec rutrum congue leo eget malesuada.</p>
+                          </div>
+                          <p class="text-small text-gray mb-2">Donec rutrum congue leo eget malesuada. Quisque velit nisi, pretium ut lacinia in, elementum id enim vivamus.</p>
+                          <div class="row text-gray d-md-flex d-none">
+                            <div class="col-4 d-flex">
+                              <p class="mb-0 mr-2 text-muted text-muted">Last responded :</p>
+                              <p class="Last-responded mr-2 mb-0 text-muted text-muted">3 hours ago</p>
+                            </div>
+                            <div class="col-4 d-flex">
+                              <p class="mb-0 mr-2 text-muted text-muted">Due in :</p>
+                              <p class="Last-responded mr-2 mb-0 text-muted text-muted">2 Days</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="ticket-actions col-md-2">
+                          <div class="btn-group dropdown">
+                            <button type="button" class="btn btn-success dropdown-toggle btn-sm" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                              Manage
+                            </button>
+                            <div class="dropdown-menu">
+                              <a class="dropdown-item" href="#"><i class="fa fa-reply fa-fw"></i>Quick reply</a>
+                              <a class="dropdown-item" href="#"><i class="fa fa-history fa-fw"></i>Another action</a>
+                              <div class="dropdown-divider"></div>
+                              <a class="dropdown-item" href="#"><i class="fa fa-check text-success fa-fw"></i>Resolve Issue</a>
+                              <a class="dropdown-item" href="#"><i class="fa fa-times text-danger fa-fw"></i>Close Issue</a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="row ticket-card mt-3 pb-2 border-bottom pb-3 mb-3">
+                        <div class="col-md-1">
+                          <img class="img-sm rounded-circle mb-4 mb-md-0" src="https://placehold.it/100x100" alt="profile image">
+                        </div>
+                        <div class="ticket-details col-md-9">
+                          <div class="d-flex">
+                            <p class="text-dark font-weight-bold mr-2 mb-0 no-wrap">Stella :</p>
+                            <p class="font-weight-medium mr-1 mb-0">[#23135]</p>
+                            <p class="font-weight-semibold mb-0 ellipsis">Curabitur aliquet quam id dui posuere blandit.</p>
+                          </div>
+                          <p class="text-small text-gray mb-2">Pellentesque in ipsum id orci porta dapibus. Sed porttitor lectus nibh. Curabitur non nulla sit amet nisl.</p>
+                          <div class="row text-gray d-md-flex d-none">
+                            <div class="col-4 d-flex">
+                              <p class="mb-0 mr-2 text-muted">Last responded :</p>
+                              <p class="Last-responded mr-2 mb-0 text-muted">3 hours ago</p>
+                            </div>
+                            <div class="col-4 d-flex">
+                              <p class="mb-0 mr-2 text-muted">Due in :</p>
+                              <p class="Last-responded mr-2 mb-0 text-muted">2 Days</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="ticket-actions col-md-2">
+                          <div class="btn-group dropdown">
+                            <button type="button" class="btn btn-success dropdown-toggle btn-sm" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                              Manage
+                            </button>
+                            <div class="dropdown-menu">
+                              <a class="dropdown-item" href="#"><i class="fa fa-reply fa-fw"></i>Quick reply</a>
+                              <a class="dropdown-item" href="#"><i class="fa fa-history fa-fw"></i>Another action</a>
+                              <div class="dropdown-divider"></div>
+                              <a class="dropdown-item" href="#"><i class="fa fa-check text-success fa-fw"></i>Resolve Issue</a>
+                              <a class="dropdown-item" href="#"><i class="fa fa-times text-danger fa-fw"></i>Close Issue</a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="row ticket-card mt-3">
+                        <div class="col-md-1">
+                          <img class="img-sm rounded-circle mb-4 mb-md-0" src="https://placehold.it/100x100" alt="profile image">
+                        </div>
+                        <div class="ticket-details col-md-9">
+                          <div class="d-flex">
+                            <p class="text-dark font-weight-bold mr-2 mb-0 no-wrap">John Doe :</p>
+                            <p class="font-weight-medium mr-1 mb-0">[#23246]</p>
+                            <p class="font-weight-semibold mb-0 ellipsis">Mauris blandit aliquet elit, eget tincidunt nibh pulvinar.</p>
+                          </div>
+                          <p class="text-small text-gray mb-2">Nulla quis lorem ut libero malesuada feugiat. Proin eget tortor risus. Lorem ipsum dolor sit amet.</p>
+                          <div class="row text-gray d-md-flex d-none">
+                            <div class="col-4 d-flex">
+                              <p class="mb-0 mr-2 text-muted">Last responded :</p>
+                              <p class="Last-responded mr-2 mb-0 text-muted">3 hours ago</p>
+                            </div>
+                            <div class="col-4 d-flex">
+                              <p class="mb-0 mr-2 text-muted">Due in :</p>
+                              <p class="Last-responded mr-2 mb-0 text-muted">2 Days</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="ticket-actions col-md-2">
+                          <div class="btn-group dropdown">
+                            <button type="button" class="btn btn-success dropdown-toggle btn-sm" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                              Manage
+                            </button>
+                            <div class="dropdown-menu">
+                              <a class="dropdown-item" href="#"><i class="fa fa-reply fa-fw"></i>Quick reply</a>
+                              <a class="dropdown-item" href="#"><i class="fa fa-history fa-fw"></i>Another action</a>
+                              <div class="dropdown-divider"></div>
+                              <a class="dropdown-item" href="#"><i class="fa fa-check text-success fa-fw"></i>Resolve Issue</a>
+                              <a class="dropdown-item" href="#"><i class="fa fa-times text-danger fa-fw"></i>Close Issue</a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- content-wrapper ends -->
+        <!-- partial:../../partials/_footer.html -->
+        <footer class="footer">
+          <div class="container-fluid clearfix">
+            <span class="text-muted d-block text-center text-sm-left d-sm-inline-block">Copyright © 2018 <a href="http://www.bootstrapdash.com/" target="_blank">Bootstrapdash</a>. All rights reserved.</span>
+            <span class="float-none float-sm-right d-block mt-1 mt-sm-0 text-center">Hand-crafted & made with <i class="mdi mdi-heart text-danger"></i></span>
+          </div>
+        </footer>
+        <!-- partial -->
+      </div>
+      <!-- main-panel ends -->
+    </div>
+    <!-- page-body-wrapper ends -->
+  </div>
+  <!-- container-scroller -->
+  <!-- plugins:js -->
+  <script src="../../vendors/js/vendor.bundle.base.js"></script>
+  <!-- endinject -->
+  <!-- Plugin js for this page-->
+  <script src="../../vendors/chart.js/Chart.min.js"></script>
+  <script src="../../vendors/raphael/raphael.min.js"></script>
+  <script src="../../vendors/morris.js/morris.min.js"></script>
+  <!-- End plugin js for this page-->
+  <!-- inject:js -->
+  <script src="../../js/off-canvas.js"></script>
+  <script src="../../js/hoverable-collapse.js"></script>
+  <script src="../../js/misc.js"></script>
+  <script src="../../js/settings.js"></script>
+  <script src="../../js/todolist.js"></script>
+  <!-- endinject -->
+  <!-- Custom js for this page-->
+  <script src="../../js/dashboard.js"></script>
+  <script src="../../js/horizontal-menu.js"></script>
+  <!-- End custom js for this page-->
+</body>
+
+</html>

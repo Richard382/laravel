@@ -1,0 +1,374 @@
+
+////////// COLOR SYSTEM //////////
+
+$blue:              #35b0ff;
+$indigo:            #7460ee;
+$purple:            #857bff;
+$pink:              #E91E63;
+$red:               #ff7474;
+$orange:            #fb9678;
+$yellow:            #ffbc34;
+$green:             #08d26f;
+$teal:              #58d8a3;
+$cyan:              #17a2bb;
+$black:             #000;
+$white:             #ffffff;
+$white-smoke:       #f4f4f4;
+$ghost-white:       #f7fafc;
+$violet:            #41478a;
+$darkslategray :    #2e383e;
+$dodger-blue :      #3498db;
+$blue-teal-gradient: linear-gradient(88deg, #1345b7, #05bdfd);
+
+$theme-colors: (
+  primary: $purple,
+  secondary: #c2c6d1,
+  success: $green,
+  info: $blue,
+  warning: $yellow,
+  danger: $red,
+  light: #f3f5f6,
+  dark: #354168,
+  teal: $teal,
+);
+
+$colors: (
+  blue: $blue,
+  indigo: $indigo,
+  purple: $purple,
+  pink: $pink,
+  red: $red,
+  orange: $orange,
+  yellow: $yellow,
+  green: $green,
+  teal: $teal,
+  cyan: $cyan,
+  white: $white,
+  white-smoke: #f3f5f6,
+  gray: $gray-600,
+  gray-light: #8ba2b5,
+  gray-lightest: #f7f7f9,
+  gray-dark: #292b2c
+);
+
+
+////////// COLOR SYSTEM //////////
+
+
+
+////////// COLOR VARIABLES //////////
+
+$content-bg: #f3f3f3;
+$footer-bg: $content-bg;
+$footer-color: color(dark);
+$border-color: #f3f3f3;
+
+////////// COLOR VARIABLES //////////
+
+
+
+////////// SOCIAL COLORS //////////
+
+$social-colors: (
+  twitter: #1da1f2,
+  facebook: #3b579d,
+  google: #dc4a38,
+  linkedin: #0177b4,
+  pinterest: #cc2127,
+  youtube: #e52d27,
+  github: #333333,
+  behance: #1769ff,
+  dribbble: #ea4c89,
+  reddit: #ff4500
+);
+
+////////// SOCIAL COLORS //////////
+
+////////// FONTS //////////
+
+$type-1 :  'Open Sans', sans-serif;
+$type-2 :  'Open Sans', sans-serif;
+
+$default-font-size: .8rem;
+$text-muted: #9c9c9c;
+$body-color: #212529;
+
+////////// FONT VARIABLES //////////
+
+////////// SIDEBAR ////////
+$sidebar-width-lg: 255px;
+$sidebar-width-mini: 185px;
+$sidebar-width-icon: 70px;
+
+$sidebar-light-bg: #fff;
+$sidebar-light-menu-color: #4a4949;
+$sidebar-light-menu-active-bg: #fafbfc;
+$sidebar-light-menu-active-color: $black;
+$sidebar-light-menu-hover-bg: $sidebar-light-menu-active-bg;
+$sidebar-light-menu-hover-color: $sidebar-light-menu-color;
+$sidebar-light-submenu-color: $sidebar-light-menu-color;
+$sidebar-light-submenu-hover-bg: initial;
+$sidebar-light-submenu-hover-color: #000;
+$sidebar-light-category-color: #999999;
+$sidebar-light-menu-icon-color: rgba(0, 0, 0, 0.2);
+$sidebar-light-profile-name-color: #404852;
+$sidebar-light-profile-title-color: #8d9498;
+
+$sidebar-dark-bg: #161616;
+$sidebar-dark-menu-color: #c7c7c7;
+$sidebar-dark-menu-active-bg: lighten($sidebar-dark-bg,5%);
+$sidebar-dark-menu-active-color: $white;
+$sidebar-dark-menu-hover-bg: $sidebar-dark-menu-active-bg;
+$sidebar-dark-menu-hover-color: $sidebar-dark-menu-color;
+$sidebar-dark-submenu-color: $sidebar-dark-menu-color;
+$sidebar-dark-submenu-hover-bg: initial;
+$sidebar-dark-submenu-hover-color: lighten($sidebar-dark-menu-color,5%);
+$sidebar-dark-category-color: #999999;
+$sidebar-dark-menu-icon-color: #404852;
+$sidebar-dark-profile-name-color: #d0d0d0;
+$sidebar-dark-profile-title-color: #8d9498;
+
+$sidebar-category-font-size: .6875rem;
+$sidebar-category-padding: .75rem 1.188rem;
+
+$sidebar-menu-font-size: 13px;
+$sidebar-icon-size: 16px;
+$sidebar-menu-padding: 1rem 1.875rem;
+$nav-link-height: 52px;
+
+$sidebar-submenu-padding: 0 0 0 3.25rem;
+$sidebar-submenu-font-size: 13px;
+$sidebar-submenu-item-padding: .75rem 1rem;
+
+$sidebar-icon-font-size: .9375rem;
+$sidebar-arrow-font-size: .625rem;
+
+$sidebar-profile-bg: transparent;
+$sidebar-profile-padding: 0rem 1.625rem 2.25rem 1.188rem;
+
+$sidebar-mini-menu-padding: .8125rem 1rem .8125rem 1rem;
+
+$sidebar-icon-only-menu-padding: .5rem 1.625rem .5rem 1.188rem;
+$sidebar-icon-only-submenu-padding: 0 0 0 1.5rem;
+$sidebar-icon-only-submenu-width: 200px;
+
+$rtl-sidebar-submenu-padding: 0 2.05rem 0 0;
+
+///////// SIDEBAR ////////
+
+///////// SETTINGS PANEL ////////
+
+$settings-panel-width: 300px;
+
+///////// HORIZONTAL MENU /////////
+$menu-break-point: 1020px;
+$horizontal-navbar-height: 135px;
+$horizontal-top-menu-bg : $white;
+$horizontal-menu-padding: 0 1rem;
+$horizontal-menu-height:  57px;
+$horizontal-bottom-menu-item-bg: darken($sidebar-light-menu-active-bg,2%);
+$horizontal-menu-item-color: #202339;
+$horizontal-menu-submenu-color: $horizontal-menu-item-color;
+$horizontal-menu-font-size: .875rem;
+$horizontal-menu-item-padding: .75rem 0;
+$horizontal-menu-icon-font-size: .9375rem;
+$horizontal-menu-submenu-item-padding: .85rem 0;
+///////// HORIZONTAL MENU /////////
+
+///////// HORIZONTAL MENU 2/////////
+$horizontal-2-navbar-height: 88px;
+$horizontal-2-navbar-bottom-height:50px;
+$horizontal-2-menu-item-color: $white;
+$horizontal-2-bg : $blue-teal-gradient;
+$horizontal-2-brand-width: 125px;
+///////// HORIZONTAL MENU 2/////////
+
+///////// NAVBAR ////////
+
+$navbar-height: 70px;
+$navbar-light-color: #202339;
+$navbar-font-size: $sidebar-menu-font-size;
+$navbar-icon-font-size: 1.25rem;
+
+///////// NAVBAR ////////
+
+
+
+///////// BUTTONS ////////
+
+$button-fixed-width:        120px;
+$btn-padding-y:       0.56rem;
+$btn-padding-x:       1.375rem;
+$btn-line-height:     1;
+
+$btn-padding-y-xs:    .5rem;
+$btn-padding-x-xs:    .75rem;
+
+$btn-padding-y-sm:    0.50rem;
+$btn-padding-x-sm:    0.81rem;
+
+$btn-padding-y-lg:    0.94rem;
+$btn-padding-x-lg:    1.94rem;
+
+$btn-font-size:       .875rem;
+$btn-font-size-xs:    .625rem;
+$btn-font-size-sm:    .875rem;
+$btn-font-size-lg:    .875rem;
+
+$btn-border-radius:         .1875rem;
+$btn-border-radius-xs:      .1875rem;
+$btn-border-radius-sm:      .1875rem;
+$btn-border-radius-lg:      .1875rem;
+
+$social-btn-padding:        13px;
+$social-btn-icon-size:      1rem;
+
+///////// BUTTONS ////////
+
+
+
+/////////  FORMS /////////
+
+$input-bg:                color(white);
+$input-border-radius:     2px;
+$input-placeholder-color: #c9c8c8;
+$input-font-size:         .75rem;
+$input-padding-y:         .56rem;
+$input-padding-x:         1.375rem;
+$input-line-height:       1;
+
+$input-padding-y-sm:      .5rem;
+$input-padding-x-sm:      .81rem;
+$input-line-height-sm:    1;
+
+$input-padding-y-lg:      .94rem;
+$input-padding-x-lg:      1.94rem;
+$input-line-height-lg:    1;
+
+///////// FORMS /////////
+
+////////  DROPDOWNS ///////
+
+$dropdown-border-color: $border-color;
+$dropdown-divider-bg:   $border-color;
+$dropdown-link-color:   $body-color;
+$dropdown-header-color: $body-color;
+////////  DROPDOWNS ///////
+
+//////// TABLES ////////
+
+$table-accent-bg: $content-bg;
+$table-hover-bg:  $content-bg;
+$table-cell-padding: .6375rem;
+$table-border-color: $border-color;
+
+$table-inverse-bg: #2a2b32;
+$table-inverse-color: color(white);
+
+//////// TABLES ////////
+
+
+
+////////// MEASUREMENT AND PROPERTY VARIABLES //////////
+
+$boxed-container-width: 1200px;
+$border-property: 1px solid $border-color;
+$card-spacing-y: 1.875rem;
+$card-padding-y: 35px;
+$card-padding-x: 25px;
+$grid-gutter-width: 25px;
+$action-transition-duration: 0.25s;
+$action-transition-timing-function: ease;
+////////// OTHER VARIABLES //////////
+
+
+
+////////// BREAD CRUMBS VARIABLES //////////
+
+// default styles
+$breadcrumb-padding-y:              0.56rem;
+$breadcrumb-padding-x:              1.13rem;
+$breadcrumb-item-padding:           .5rem;
+$breadcrumb-margin-bottom:          1rem;
+$breadcrumb-font-size:              $default-font-size;
+$breadcrumb-bg:                     transparent;
+$breadcrumb-border-color:           $border-color;
+$breadcrumb-divider-color:          $gray-600;
+$breadcrumb-active-color:           $gray-700;
+$breadcrumb-divider:                "/";
+
+// custom styles
+$breadcrumb-custom-padding-y:       0;
+$breadcrumb-custom-padding-x:       0;
+$breadcrumb-custom-item-padding-y:  0.56rem;
+$breadcrumb-custom-item-padding-x:  10px;
+$breadcrumb-custom-item-color:      $black;
+$breadcrumb-item-bg:                #dbe3e6;
+
+////////// BREAD CRUMBS VARIABLES //////////
+
+
+
+////////// MODALS VARIABLES //////////
+
+$modal-inner-padding:               15px;
+$modal-dialog-margin:               10px;
+$modal-dialog-margin-y-sm-up:       30px;
+$modal-title-line-height:           $line-height-base;
+$modal-content-bg:                  $content-bg;
+$modal-content-box-shadow-xs:       0 3px 9px rgba($black,.5);
+$modal-content-box-shadow-sm-up:    0 5px 15px rgba($black,.5);
+
+$modal-backdrop-bg:                 $black;
+$modal-backdrop-opacity:            .5;
+
+$modal-header-border-color:         $border-color;
+$modal-content-border-color:        $border-color;
+$modal-footer-border-color:         $border-color;
+
+$modal-header-border-width:         $border-width;
+$modal-content-border-width:        $border-width;
+$modal-footer-border-width:         $border-width;
+
+$modal-header-padding-x:              26px;
+$modal-header-padding-y:              25px;
+
+$modal-body-padding-x:                26px;
+$modal-body-padding-y:                35px;
+
+$modal-footer-padding-x:              31px;
+$modal-footer-padding-y:              15px;
+
+$modal-lg:                          90%;
+$modal-md:                          500px;
+$modal-sm:                          300px;
+$modal-transition:                  transform .4s ease;
+
+////////// MODALS VARIABLES //////////
+
+
+////////// TOOLTIP VARIABLES //////////
+
+//default styles
+$tooltip-font-size:     .75rem;
+$tooltip-padding-y:     .4rem;
+$tooltip-padding-x:     .75rem;
+$tooltip-border-radius: .375rem;
+$tooltip-bg:  theme-color(dark);
+$tooltip-arrow-color: $tooltip-bg;
+
+////////// TOOLTIP VARIABLES //////////
+
+
+
+////////// POPOVER VARIABLES //////////
+
+//default styles
+$popover-bg:       #f1f6ff;
+$popover-text-color: $black;
+$popover-border-color:    $border-color;
+$popover-arrow-color:     $popover-bg;
+$popover-arrow-outer-color: $popover-border-color;
+$popover-header-bg:   $popover-bg;
+
+////////// POPOVER VARIABLES //////////

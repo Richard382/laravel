@@ -1,0 +1,18 @@
+/* Dropdowns */
+.dropdown-menu {
+  font-size: $default-font-size;
+
+  .dropdown-item {
+    &:active {
+      background: initial;
+    }
+  }
+}
+.dropdown{
+  .dropdown-toggle{
+    &:after{
+      border: none;
+      margin-left: 0;
+    }
+  }
+}
